@@ -2,7 +2,7 @@ const commando = require('discord.js-commando');
 const bot = new commando.Client({
     owner: '329913244389212161'
 });
-const token = require('./token.json');
+const token = require('D:/secret/token.json');
 
 bot.on('ready', () => {
   bot.user.setGame('Doom');
