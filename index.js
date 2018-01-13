@@ -10,6 +10,7 @@ bot.on('ready', () => {
 });
 
 bot.registry.registerGroup('main', 'Main');
+bot.registry.registerGroup('spam', 'Spam');
 bot.registry.registerDefaults();
 bot.registry.registerCommandsIn(__dirname + "/commands");
 
