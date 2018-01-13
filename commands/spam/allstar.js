@@ -31,7 +31,7 @@ async run(message, args) {
     message.channel.send('And all that glitters is gold');
     message.channel.send('Only shooting stars break the mold');
     message.channel.send('----------');
-    message.channel.send('The typos are meant to be here bc coding shit');
+    message.channel.send('The typos and pauses are meant to be here bc coding shit');
   }
 }
 
