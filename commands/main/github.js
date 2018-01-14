@@ -12,7 +12,8 @@ class command extends commando.Command {
   }
 
 async run(message, args) {
-    message.reply('Our github repository is at https://github.com/ms-dosbot/ms-dosbot');
+  console.log('!github used.')
+  message.reply('Our github repository is at https://github.com/ms-dosbot/ms-dosbot');
   }
 }
 

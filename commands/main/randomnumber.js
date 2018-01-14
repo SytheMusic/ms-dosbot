@@ -12,8 +12,9 @@ class command extends commando.Command {
   }
 
 async run(message, args) {
-    var result = Math.floor(Math.random() * 999) + 1;
-    message.reply('Your random number is ' + result);
+  console.log('!randomnumber used.')
+  var result = Math.floor(Math.random() * 999) + 1;
+  message.reply('Your random number is ' + result);
   }
 }
 

@@ -12,7 +12,8 @@ class command extends commando.Command {
   }
 
 async run(message, args) {
-    message.reply('Join our server at https://discord.gg/hHT82uj');
+  console.log('!server used.')
+  message.reply('Join our server at https://discord.gg/hHT82uj');
   }
 }
 
