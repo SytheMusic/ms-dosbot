@@ -5,7 +5,7 @@ const bot = new commando.Client({
 const token = require('D:/secret/token.json');
 
 bot.on('ready', () => {
-  bot.user.setGame('Doom');
+  bot.user.setGame('Doom on ${client.guilds.size} servers!');
   console.log(`Started!`);
 });
 
