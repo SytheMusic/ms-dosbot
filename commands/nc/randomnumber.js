@@ -5,7 +5,7 @@ class command extends commando.Command {
   constructor() {
     super(bot, {
       name: 'randomnumber',
-      group: 'main',
+      group: 'nc',
       memberName: 'randomnumber',
       description: 'Generates a random number.'
     });

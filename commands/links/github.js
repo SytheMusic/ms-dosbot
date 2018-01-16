@@ -5,7 +5,7 @@ class command extends commando.Command {
   constructor() {
     super(bot, {
       name: 'github',
-      group: 'main',
+      group: 'links',
       memberName: 'github',
       description: 'Our github repository.'
     });

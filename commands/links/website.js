@@ -4,16 +4,16 @@ const bot = new commando.Client();
 class command extends commando.Command {
   constructor() {
     super(bot, {
-      name: 'server',
-      group: 'main',
-      memberName: 'server',
-      description: 'Our Discord server.'
+      name: 'website',
+      group: 'links',
+      memberName: 'website',
+      description: 'Our website.'
     });
   }
 
 async run(message, args) {
-  console.log('!server used.')
-  message.reply('Join our server at https://discord.gg/hHT82uj');
+  console.log('!website used.')
+  message.reply('Our website is at https://ms-dosbot.github.io/');
   }
 }
 
