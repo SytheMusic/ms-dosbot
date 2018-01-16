@@ -14,6 +14,6 @@ bot.registry.registerGroup('spam', 'Spam');
 bot.registry.registerGroup('answers', 'Answers');
 bot.registry.registerGroup('nc', 'No category');
 bot.registry.registerDefaults();
-bot.registry.registerCommandsIn('./commands');
+bot.registry.registerCommandsIn(__dirname + '/commands');
 
 bot.login(token.get);
