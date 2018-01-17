@@ -1,6 +1,6 @@
 const commando = require('discord.js-commando');
 const bot = new commando.Client({
-    owner: '329913244389212161'
+    owner: '329913244389212161',
     unknownCommandResponse: false
 });
 const token = require('D:/secret/token.json');
