@@ -7,7 +7,7 @@ const token = require('D:/secret/token.json');
 
 bot.on('ready', () => {
   bot.user.setGame('Doom on ' + bot.guilds.size + ' servers!');
-  console.log(`Started!`);
+  console.log('Started!');
 });
 
 bot.registry.registerGroup('links', 'Links');
