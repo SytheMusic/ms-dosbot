@@ -14,7 +14,7 @@ class command extends commando.Command {
 async run(message, args) {
   console.log('!what-library used.')
   message.reply('Discord.js and Discord.js-commando.');
-  message.channel.send('Ok i 	__maybe__ switch to Eris because its also node.js and maybe simpler');
+  message.channel.send('Ok i __maybe__ switch to Eris because its also node.js and maybe simpler');
   }
 }
 
